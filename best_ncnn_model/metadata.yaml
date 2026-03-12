@@ -1,0 +1,18 @@
+description: Ultralytics best model trained on /kaggle/input/weed-dataset/Weed dataset/data.yaml
+author: Ultralytics
+date: '2026-02-28T14:30:45.254611'
+version: 8.3.160
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: Weed
+args:
+  batch: 1
+  half: true
+channels: 3
