@@ -43,8 +43,8 @@ KNOWN_WIDTH = 3.0; FOCAL_LENGTH = 920
 def get_distance(px): return (KNOWN_WIDTH * FOCAL_LENGTH) / px if px > 0 else 999
 
 # --- FIELD SETUP ---
-VELOCITY_CM_S = 39.23
-THRESHOLD_CM = 21.0
+VELOCITY_CM_S = 17.02
+THRESHOLD_CM = 20.0
 
 if not sys.stdin.isatty():
     FIELD_LENGTH = 120.0; FIELD_WIDTH = 100.0; LANE_GAP = 20
