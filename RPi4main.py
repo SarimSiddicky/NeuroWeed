@@ -39,7 +39,7 @@ picam2 = Picamera2()
 config = picam2.create_video_configuration(main={"format": "BGR888", "size": (640, 480)})
 picam2.configure(config); picam2.start()
 
-KNOWN_WIDTH = 3.0; FOCAL_LENGTH = 920  
+KNOWN_WIDTH = 3.0; FOCAL_LENGTH = 530 #CALIBRATED SEPERATELY BEFOREHAND  
 def get_distance(px): return (KNOWN_WIDTH * FOCAL_LENGTH) / px if px > 0 else 999
 
 # --- FIELD SETUP ---
