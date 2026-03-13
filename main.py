@@ -60,7 +60,7 @@ def turn_90(direction):
 
 # --- PID LOOP ---
 KP = 1200.0
-BASE_SPEED = 40000
+BASE_SPEED = 25000 ##
 mode = "STOP"
 last_time = time.ticks_ms()
 
